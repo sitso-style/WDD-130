@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@1,300&family=Roboto:wght@100&family=Rock+Salt&display=swap');
+.home-title{
+  font-family: 'Rock Salt', Arial, Helvetica, sans-serif, 'Abril Fatface', cursive;
+  color: black;
+  font-size: 2em;
+  margin-top: 10px;
+}
 #content {
   max-width: 1600px;
   margin: 0 auto;
 }
 nav a {
   text-align: center;
+}
+h4{
+  color: #000000;
 }
 #hero-msg h1,
 #hero-msg h4 {
@@ -17,40 +27,84 @@ main section {
 }
 #background {
   height: 725px;
+  background-color: #b7ebf8;
 }
 body {
   background-color: #219EBC;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif, 'Abril Fatface', cursive,;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+#logo_link{
+  padding-top: 5px;
+}
+h2{
+  margin: 0;
 }
 header {
   background-color: #FFB703;
 }
 nav a {
   background-color:#FFB703;
+  color: #000000;
   text-decoration: none;
+  padding: 35px;
 }
 nav a:hover {
   background-color: #219EBC;
+  color: #FFB703;
 }
-.book,
-.join {
-  background-color: #219EBC;
+
+.book, .join {
+  font-size: 18px;
+  background-color: #e84109;
+  color:  #FFB703;
   text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
-#background {
-  background-color: #219EBC;
+.book:hover, .join:hover {
+  background-color: #e9e5db;
+}
+.rivers-card, .camping-card, .rapids-card{
+  margin-top: 200px 0;
+}
+.card-img{
+  border: 10px solid #000000;
+}
+main section img{
+  box-sizing: border-box;
 }
 .msg {
   background-color: #FFB703;
+  line-height: 1.5em;
+  padding: 35px;
+}
+.msg h2 {
+  font-family: 'Rock Salt', Arial, Helvetica, sans-serif, 'Abril Fatface', cursive;
+  color: black;
+}
+.msg p {
+  color: black;
+  font-size: .8em;
+  padding-bottom: 35px;
 }
 footer {
   background-color:  #FFB703;
+  color: black;
+  padding: 25px 50px;
+  margin-top: 200px ;
 }
 footer a {
   background-color:  #FFB703;
+  color: black;
   text-decoration: none;
 }
 footer a:hover {
   background-color: #219EBC;
+  color: black;
 }
 footer p {
   font-size: 1.2em;
@@ -58,11 +112,16 @@ footer p {
 footer p a:hover {
   text-decoration: underline;
 }
+footer .social img{
+  padding-top: 15px;
+}
+
 .logo {
   width: 80px;
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 #hero-img {
   width: 100%;
