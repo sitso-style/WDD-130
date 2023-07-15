@@ -154,8 +154,8 @@
   .Men-slide-img {
     margin-top: -700px;
     margin-right: 20px;
-    height: 760px;
-    width: 770px;
+    height: 560px;
+    width: 570px;
     align-self: center;
     align-items: center;
     justify-content: center;
@@ -172,8 +172,8 @@
   .Children-slide-img {
     margin-top: -700px;
     margin-left: 20px;
-    height: 760px;
-    width: 770px;
+    height: 560px;
+    width: 570px;
     border: 10px solid #d9c2a3;
     transition: transform 0.5s;
     box-shadow: 5px 5px 10px #6f7364;

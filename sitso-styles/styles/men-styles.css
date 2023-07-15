@@ -79,7 +79,7 @@ nav a {
     margin-bottom: 25px;
   }
   .displays img{
-
+    height: 400px;
     justify-content: center;
     border: 10px solid #d9c2a3;
     transition: transform 0.5s;
