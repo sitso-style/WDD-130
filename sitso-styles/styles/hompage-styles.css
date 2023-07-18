@@ -67,6 +67,8 @@
   }
   
   .info {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
     background-color: #219ebc;
     line-height: 1.5em;
     padding: 35px;

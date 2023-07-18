@@ -130,3 +130,8 @@ nav a {
     color: white;
     transition: 1s;
   }
+  .about{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    color: white;
+  }
